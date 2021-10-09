@@ -1,0 +1,65 @@
+nav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: tomato;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav a{
+    display:block;
+    padding: 9px 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+
+nav a:hover{
+    background-color: green;
+    color: yellow;
+}
+
+h1{
+    color:white;
+	font-size:40px;
+	text-align:center;
+	background-color:green;
+	font-family:arial;
+    margin:0px;
+    padding:0px;
+}
+
+#products{
+    height:300px;
+	width:380px;
+	border:0px solid black;
+	margin:5px 5px 5px 20px;
+	border-radius:10px;
+	float:left;
+	text-align: justify
+}
+
+input:focus{
+    color:blue;
+    font-size: 20px;
+}
+
+ul{
+    column-count: 3;
+    list-style-type: disc;
+}
+
+li:hover{
+    color:blue;
+}
+
+h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+h2 a:hover{
+    color: blueviolet;
+}
